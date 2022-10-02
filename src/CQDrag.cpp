@@ -21,7 +21,7 @@ paintEvent(QPaintEvent *)
 {
   QPainter p(this);
 
-  p.setPen(QColor(0,0,0));
+  p.setPen(QColor(0, 0, 0));
 
   p.drawText(rect(), QString("%1").arg(count_));
 }
